@@ -158,7 +158,7 @@ function Education() {
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
                     <div className=" text-sm md:text-base">Class 10<sup>th</sup> </div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">Scores &nbsp; 70%</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">Scores &nbsp; 80%</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
