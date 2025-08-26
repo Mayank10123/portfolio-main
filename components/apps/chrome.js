@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 export class Chrome extends Component {
     constructor() {
         super();
-        this.home_url = 'hhttps://github.com/Mayank10123/portfolio-main';
+        this.home_url = 'https://www.google.com/webhp?igu=1';
         this.state = {
-            url: 'https://github.com/Mayank10123/portfolio-main',
-            display_url: "https://github.com/Mayank10123/portfolio-main",
+            url: 'https://www.google.com/webhp?igu=1',
+            display_url: "https://www.google.com",
         }
     }
 
@@ -28,7 +28,7 @@ export class Chrome extends Component {
     }
 
     goToHome = () => {
-        this.setState({ url: this.home_url, display_url: "https://github.com/Mayank10123/portfolio-main" });
+        this.setState({ url: this.home_url, display_url: "https://www.google.com" });
         this.refreshChrome();
     }
 
@@ -46,9 +46,9 @@ export class Chrome extends Component {
 
             url = encodeURI(url);
             display_url = url;
-            if (url.includes("github.com")) { // 😅
-                url = 'https://github.com/Mayank10123/portfolio-main';
-                display_url = "https://github.com/Mayank10123/portfolio-main";
+            if (url.includes("google.com")) { // 😅
+                url = 'https://www.google.com/webhp?igu=1';
+                display_url = "https://www.google.com";
             }
             this.setState({ url, display_url: url });
             this.storeVisitedUrl(url, display_url);

@@ -75,7 +75,7 @@ export class AboutMayank extends Component {
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
                 </div>
                 <div className='my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex' >
-                    <iframe src="https://github.com/sponsors/Mayank9mishra/button" title="Sponsor Mayank9mishra" width={"100%"} height={"100%"} ></iframe>
+                    <iframe src="https://github.com/sponsors/Mayank10123/button" title="Sponsor Mayank10123" width={"100%"} height={"100%"} ></iframe>
                 </div>
             </>
         );
@@ -274,7 +274,7 @@ function Projects() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>*/                                   
-            <iframe src="https://github.com/Mayank10123/portfolio-main" title="Sponsor Mayank9mishra" className='my-4 w-5/6 md:w-3/4' ></iframe>
+            <iframe src="https://github.com/Mayank10123/portfolio-main" title="Sponsor Mayank10123" className='my-4 w-5/6 md:w-3/4' ></iframe>
 
             {
                 project_list.map((project, index) => {
@@ -286,7 +286,7 @@ function Projects() {
                                 <div className="flex flex-wrap justify-between items-center">
                                     <div className='flex justify-center items-center'>
                                         <div className=" text-base md:text-lg mr-2">{project.name.toLowerCase()}</div>
-                                        <iframe src={`https://ghbtns.com/github-btn.html?user=Mayank9mishra&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
+                                        <iframe src={`https://ghbtns.com/github-btn.html?user=Mayank10123&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
                                     </div>
                                     <div className="text-gray-300 font-light text-sm">{project.date}</div>
                                 </div>
