@@ -98,7 +98,7 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         isExternalApp: true,
-        url: "https://github.com/Mayank9mishra",
+        url: "https://github.com/Mayank10123/portfolio-main",
         screen: () => {},
     },
     {
@@ -109,7 +109,7 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         isExternalApp: true,
-        url: "https://www.Mayank9mishra.com/tars"
+        url: "https://i.ibb.co/5Wpb94cY/Screenshot-1.png"
     },
 ]
 

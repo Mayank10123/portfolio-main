@@ -125,9 +125,9 @@ function About() {
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student</span> currently pursuing Computer Science B-tech . I've completed my 12th class in 2025 from JAIPURIA school  <u className=' cursor-pointer '> <a href="https://en.wikipedia.org/wiki/HackerRank" target={"_blank"}></a> </u>, and now I'm looking for full-time frontend engineer roles! ( Hit me up <a className='text-underline' href='mailto:Mayank.p9737@gmail.com'><u>@Mayank.p9737@gmail.com</u></a> :) )</li>
+                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student</span> currently pursuing Computer Science B-tech . I've completed my 12th class in 2025 from JAIPURIA school  <u className=' cursor-pointer '> <a href="https://en.wikipedia.org/wiki/HackerRank" target={"_blank"}></a> </u>, and now I'm looking for full-time frontend engineer roles! ( Hit me up <a className='text-underline' href='mailto:mayank2008mishra08@gmail.com'><u>@mayank2008mishra08@gmail.com</u></a> :) )</li>
                 <li className=" mt-3 list-building"> I enjoy building awesome softwares that solve practical problems.</li>
-                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing minecraft or watching <a href="https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A" target="_blank" rel="noreferrer"> tom scott's videos.</a></li>
+                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing minecraft or watching <a href="nahh search it on youtube" target="_blank" rel="noreferrer"> doraemon cartoon.</a></li>
                 <li className=" mt-3 list-star"> And I also have interest in Deep Learning & Computer Vision!</li>
             </ul>
         </>
@@ -237,7 +237,7 @@ function Projects() {
         {
             name: "UbuntuOS Portfolio",
             date: "AUG 2025",
-            link: "https://github.com/Mayank9mishra/Mayank9mishra.github.io",
+            link: "https://github.com/Mayank10123/portfolio-main",
             description: [
                 "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
             ],
@@ -274,7 +274,7 @@ function Projects() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>*/                                   
-            <iframe src="https://github.com/sponsors/Mayank9mishra/card" title="Sponsor Mayank9mishra" className='my-4 w-5/6 md:w-3/4' ></iframe>
+            <iframe src="https://github.com/Mayank10123/portfolio-main" title="Sponsor Mayank9mishra" className='my-4 w-5/6 md:w-3/4' ></iframe>
 
             {
                 project_list.map((project, index) => {
@@ -317,6 +317,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/Mayank-mishra-Resume.pdf" title="Mayank mishra resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/mayank-mishra-Resume.pdf" title="Mayank mishra resume" frameBorder="0"></iframe>
     )
 }
