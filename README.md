@@ -2,7 +2,7 @@
 
 This is a personal portfolio website of theme Ubuntu 20.04, made using Next.js & tailwind CSS.
 Myself Mayank mishra a Btech student.
-
+Live preview (https://portfolio-main-3jnu.onrender.com)
 To run this on localhost
 type `npm start` and when u are done coding type `npm run build` to build your app.
 
